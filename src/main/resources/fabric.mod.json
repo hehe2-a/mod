@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "liteping",
+  "version": "2.3.6+mc1.21.8",
+  "name": "Lite Ping",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/liteping/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.liteping.fabric.client.LitePingClient"
+    ]
+  },
+  "mixins": [
+    "lit.mixins.json",
+    "lit.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.8"
+  }
+}
